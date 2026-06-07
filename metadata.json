@@ -1,0 +1,6 @@
+{
+  "name": "Rullst Framework Showcase",
+  "description": "An interactive, premium marketing and documentation platform showcasing the Rullst Rust framework, illustrating its Active Record ORM, Native Multi-tenancy, and Markdown-First reactive templating.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
