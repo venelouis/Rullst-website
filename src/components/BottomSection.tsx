@@ -1,5 +1,5 @@
 import React from "react";
-import { GitBranch, Flame, Shield, ArrowUpRight } from "lucide-react";
+import { GitBranch, Flame, Shield, ArrowUpRight, CircleAlert } from "lucide-react";
 
 interface BottomSectionProps {
   onNavigateTab: (tab: string) => void;
@@ -93,6 +93,17 @@ export default function BottomSection({ onNavigateTab }: BottomSectionProps) {
                 All variables initialized via multitenant::TENANT_CONTEXT are isolated inside tokio-runtime task-local bounds, preventing cross-tenant security vulnerabilities.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Global Architectural Disclaimer Banner */}
+        <div className="mt-12 p-5 rounded-2xl bg-gradient-to-r from-red-950/20 via-orange-950/15 to-red-950/20 border border-orange-500/20">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-center sm:text-left">
+            <CircleAlert className="w-5 h-5 text-orange-400 shrink-0 animate-pulse" />
+            <p className="text-xs font-mono tracking-wide text-orange-200/90 leading-relaxed max-w-4xl">
+              <span className="text-orange-400 font-bold uppercase mr-2">[ARCHITECTURAL DISCLAIMER]</span>
+              Please note that the technical specifications, performance benchmarks, and features presented on this landing page are part of a conceptual showcase and may contain inaccurate or simulated information. Refer to the official files for actual codebase metrics.
+            </p>
           </div>
         </div>
 

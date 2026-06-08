@@ -72,4 +72,3 @@ To host this beautiful showcase on your own GitHub account:
 
 ---
 *Distributed under the Apache-2.0 License.*
-

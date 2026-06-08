@@ -57,17 +57,6 @@ export default function App() {
       {/* Absolute Decorative Grid Pattern Background */}
       <div className="absolute inset-x-0 top-0 h-[800px] bg-[linear-gradient(to_right,#1f293708_1px,transparent_1px),linear-gradient(to_bottom,#1f293708_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
 
-      {/* Global Architectural Disclaimer Banner */}
-      <div className="relative z-50 bg-gradient-to-r from-red-950/40 via-orange-950/30 to-red-950/40 border-b border-orange-500/20 px-4 py-3 text-center">
-        <div className="max-w-7xl mx-auto flex items-center justify-center space-x-2.5 text-orange-200/95">
-          <CircleAlert className="w-4 h-4 text-orange-400 shrink-0 animate-pulse" />
-          <p className="text-xs font-mono tracking-wide">
-            <span className="text-orange-400 font-bold uppercase mr-1.5">[ARCHITECTURAL DISCLAIMER]</span>
-            Please note that the technical specifications, performance benchmarks, and features presented on this landing page are part of a conceptual showcase and may contain inaccurate or simulated information. Refer to the official files for actual codebase metrics.
-          </p>
-        </div>
-      </div>
-
       {/* Primary Sticky Header */}
       <Header activeTab={activeTab} setActiveTab={handleSetActiveTab} />
 
